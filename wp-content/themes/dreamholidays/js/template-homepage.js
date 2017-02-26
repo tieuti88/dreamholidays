@@ -1,0 +1,1 @@
+$("#mobileDevice").hide();$("#mobilePoster").hide();$("#desktopDevice").hide();$("#desktopVideo").hide();if(mobileDetection.isMobile.any()){$("source").attr('src','');$("#mobileDevice").show();$("#mobilePoster").show();var player=videojs('#homepageVideo');player.dispose();}else{$("#desktopDevice").show();$("#desktopVideo").show();$("#mobilePoster").remove();}
